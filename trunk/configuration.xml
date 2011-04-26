@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration>
+    <xmlFilePath>./example.xml</xmlFilePath>
+    <!-- Don't specify .xsd file here if you want to run DTD validation -->
+    <xsdFilePath>./example.xsd</xsdFilePath>
+    <dtdFilePath>./example.dtd</dtdFilePath>
+    <!-- Supported operations: Count and Validate -->
+    <selectedOperation>Validate</selectedOperation>
+    <!-- Array of elements -->
+    <element>NodeType</element>
+    <element>AttrType</element>
+</configuration>
